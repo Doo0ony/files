@@ -1,0 +1,139 @@
+body {
+	font-family:'Raleway','sans-serif';
+	font-size:14px;
+    
+	color:white;
+	margin:0;
+	background-image: url(images/fon.jpg);
+	background-repeat: no-repeat;
+	background-color: gray;
+
+
+}
+
+*,
+*:before,
+*:after{
+	box-sizing: border-box;
+}
+
+/*conteiner===
+==============*/
+.conteiner{
+	width:100% ;
+	max-width: 1170px;
+	margin: 0 auto;
+}
+
+
+
+
+/*header============
+==================*/
+.header{
+
+ 	position: absolute;
+ 	width: 100%;
+ 	top: 0;
+ 	left: 0;
+ 	z-index: 1000;
+}
+
+.header_inner{
+    display: flex;
+	justify-content: space-between;
+    padding: 25px 0;
+    padding-bottom: 0px;
+    border-bottom:1px solid
+    #FFF; 
+    align-items: center;
+  
+}
+
+/*nav===================*/
+
+.nav{
+	display: flex;
+	font-size:16px;
+	font-weight: 700;
+	text-transform: uppercase;
+	padding:10px;
+
+}
+
+.nav_link {
+  
+	margin-left:0px; 
+	color: white;
+	text-decoration: none;
+	opacity: .75;
+	transition: opacity .2s linear;
+}
+.nav_link12 {
+  
+	margin-left:0px; 
+	color: red;
+	text-decoration: none;
+	opacity: 0.75;
+	transition: opacity .2s linear;
+}
+.nav_link12:hover{
+	opacity: 1;
+	color: red;
+}
+
+
+.nav_link:hover{
+	opacity: 1;
+	color: black;
+}
+.pr{
+
+}
+
+
+/*conteiner=============================*/
+.conteiner2{
+
+    padding-top: 150px ;
+
+  
+ }
+ 	
+.Dron {
+
+ 	width: 100%;
+ 	top: 135;
+ 	left: 0;
+ 	z-index: 1000;
+}
+.bordfer{
+   border-top: 1px solid gray; 
+   border-bottom: 1px solid gray; 
+   padding: 0px;
+
+}
+.dima{
+	color: red ;
+	text-decoration: none;
+	opacity: 0.75;
+	transition: opacity .2s linear;
+}
+.dima:hover{
+	text-decoration: none;
+	opacity: 1;
+	color: green;
+}
+.opl1{
+	background-color: white;
+	color: white;
+}
+
+.conteiner122{
+
+    padding-top: 150px ;
+
+ }
+ .dimas{
+ 	align-content: center;
+ }
