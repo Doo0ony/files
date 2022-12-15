@@ -2,6 +2,10 @@
 body {
     background-color: #90f;
     font-family: Arial ;
+
+    background: rgb(0,9,36);
+    background: linear-gradient(90deg, rgba(0,9,36,1) 0%, rgba(207,0,255,1) 100%);
+
 }
 
 .textbox p {
@@ -34,4 +38,25 @@ body {
     left: 50%;
     margin-right: -50%;
     transform: translate(-50%, -50%)
+}
+
+.textbox .downloadButton{
+    background: rgb(0,9,36);
+    background: linear-gradient(-90deg, rgba(0,9,36,1) 0%, rgba(207,0,255,1) 100%);
+
+    padding: 20px;
+    border-radius: 20px;
+    text-align: center;
+    font-size: 20px;
+}
+
+.textbox .downloadButton a{
+    color: white;
+    font-weight: bolder;
+
+}
+
+.textbox li{
+    font-weight: initial;
+    
 }
