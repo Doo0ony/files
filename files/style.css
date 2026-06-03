@@ -1,0 +1,62 @@
+
+body {
+    background-color: #90f;
+    font-family: Arial ;
+
+    background: rgb(0,9,36);
+    background: linear-gradient(90deg, rgba(0,9,36,1) 0%, rgba(207,0,255,1) 100%);
+
+}
+
+.textbox p {
+    font-size: 24px;
+    font-weight: bolder;
+}
+
+.textbox h3 {
+    font-size: 18px; 
+    font-weight: normal;  
+}
+.textbox a{
+    text-decoration: none; 
+}
+
+.textbox {
+    padding: 20px;
+    align-content: center;
+    width: 70%;
+    border-radius: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    display:block ;
+    box-shadow: 15px 10px 10px #333;
+
+    margin: 0;
+    background: yellow;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
+}
+
+.textbox .downloadButton{
+    background: rgb(0,9,36);
+    background: linear-gradient(-90deg, rgba(0,9,36,1) 0%, rgba(207,0,255,1) 100%);
+
+    padding: 20px;
+    border-radius: 20px;
+    text-align: center;
+    font-size: 20px;
+}
+
+.textbox .downloadButton a{
+    color: white;
+    font-weight: bolder;
+
+}
+
+.textbox li{
+    font-weight: initial;
+    
+}
